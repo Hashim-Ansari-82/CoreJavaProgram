@@ -1,14 +1,13 @@
 import java.util.*;
 
 class HashMapDemo{
-  public static void main(String[] args){
-    
+  public static void main(String[] args){  
 	HashMap<Integer,String> hm=new HashMap<>();
 	hm.put(12,"Hashim");
 	hm.put(15,"Huzaifa");
 	hm.put(18,"Raiyyan");
 	hm.put(20,"Mr Srk");
-	
+	System.out.println(hm);
 	Iterator itr=hm.entrySet().iterator();
 	  while(itr.hasNext()){
 	      Map.Entry m=(Map.Entry)itr.next();
@@ -18,5 +17,5 @@ class HashMapDemo{
 		  }
 	  }
        System.out.println(hm);
-  }
+    }
  }
