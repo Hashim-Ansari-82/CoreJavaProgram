@@ -8,9 +8,9 @@ class HashMapDemo{
 	hm.put(18,"Raiyyan");
 	hm.put(20,"Mr Srk");
 	System.out.println(hm);
-	Iterator itr=hm.entrySet().iterator();
+	Iterator<Map.Entry<Integer,String>> itr=hm.entrySet().iterator();
 	  while(itr.hasNext()){
-	      Map.Entry m=(Map.Entry)itr.next();
+	      Map.Entry<Integer,String> m=itr.next();
 		  System.out.println(m.getKey()+" ---> "+m.getValue());
 		  if(m.getKey().equals(15)){
 		  itr.remove();
