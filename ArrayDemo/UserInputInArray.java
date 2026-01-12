@@ -9,7 +9,7 @@ public class UserInputInArray {
      int size=Integer.parseInt(br.readLine());
      int[] a=new int[size];
      System.out.println("Enter Array Element "+size);
-     for(int i=0; i<a.length; i++){
+     for(int i=0; i<a.length; i++){      
         System.out.println("Enter element in index "+i);
         a[i] = Integer.parseInt(br.readLine());
      }

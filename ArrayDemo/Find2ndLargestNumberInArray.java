@@ -9,6 +9,7 @@ public class Find2ndLargestNumberInArray {
                 System.out.println("Second Largest Number : "+a[i]);
                 break;
             }
+        
         }
      }
 }
